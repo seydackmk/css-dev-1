@@ -1,0 +1,86 @@
+main {
+    width: 90%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.container {
+    /* width:400px; */
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+.container2 {
+    /* width:80%; */
+    height: 30px;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    margin-bottom: 10px; */
+    background-color:#EEEEEE;
+    padding-bottom:35px;
+    text-align: center;
+}
+
+.container3 {
+
+    /* margin-left: 190px;
+    margin-right: auto; */
+
+    
+    
+    background-color:#62B3AA;
+}
+
+/* 
+leftbox,center ve rbox'ı Container3 divinden cıkar! Orjinal c3 widthini geçemiyor child divler, alt satıra atıyor!
+not2: containersiz marginleri ve ortalamayı ayrı ayrı yapmam lazım!
+*/
+
+#leftbox {
+    width:34%;
+    height: 20px;
+    background-color:#7ee5da;
+    padding-bottom:50px;
+    text-align: center;
+    float: left;
+    margin-top: 5px;
+    padding-top: 10px;
+    margin-right: 4px;
+}
+
+#center {
+    width:20%;
+    height: 20px;
+   
+    background-color:#70ccc2;
+    padding-bottom:50px;
+    text-align: center;
+    float: left;
+    margin-top: 5px;
+    font-size: small;
+    padding-top: 10px;
+    margin-right:4px;
+}
+
+#rightbox {
+    width:45%;
+    height: 30px;
+    
+    background-color:#62b3aa;
+    padding-bottom:50px;
+    text-align: center;
+    float: left;
+    margin-top: 5px;
+    font-size: small
+}
+.align {
+    text-align: center;
+   
+}
